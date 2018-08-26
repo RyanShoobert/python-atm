@@ -4,17 +4,20 @@ Created on 2018-08-20 (YYYY-MM-DD)
 Controller for the ATM application. Where user input is processed.
 
 @author: Ryan Shoobert
-@since: 2018-08-21 (YYYY-MM-DD)
-@version: 1.0.1
+@since: 2018-08-26 (YYYY-MM-DD)
+@version: 1.0.2
 '''
 
 class ATM_Controller:
 
     #Constructor
-    def __init__(self):
+    def __init__(self, view, model):
+        self.view = view
+        self.model = model
         '''
-        NOT YET IMPLEMENTED
+        NOT YET FULLY IMPLEMENTED
         '''
+        
         
     '''
     When a deposit is made, the balance will be updated in the model.
