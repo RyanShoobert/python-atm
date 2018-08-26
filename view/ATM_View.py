@@ -7,7 +7,7 @@ Created on 2018-08-20 (YYYY-MM-DD)
 Graphical user interface for the ATM application
 
 @author: Ryan Shoobert
-@since: 2018-08-20 (YYYY-MM-DD)
+@since: 2018-08-22 (YYYY-MM-DD)
 @version: 1.0.1
 '''
 
@@ -24,7 +24,7 @@ class ATM_View:
         
     def setupGUI(self):
         # Window properties
-        self.window.title("ATM v1.0.1")
+        self.window.title("ATM v1")
         self.window.iconbitmap(self,default='app_icon.ico')
         
         # Withdraw button
