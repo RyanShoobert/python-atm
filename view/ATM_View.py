@@ -25,6 +25,7 @@ class ATM_View:
     def setupGUI(self):
         # Window properties
         self.window.title("ATM v1")
+        self.window.iconbitmap(self,default='app_icon.ico')
         
         # Withdraw button
         withdrawButton = tk.Button(text="Withdraw", state="disabled")
